@@ -47,11 +47,22 @@ img{
 }
 .price{
     justify-content: space-around;
-    padding:22px 0px;
     border: 1px solid #e7eeea;
 }
 h3{
+    width: 183px;
     display: block;
+    color:#37523d;
+    padding:22px 0px;
+    text-align: center;
+}
+.border-left{
+    border-left: 1px solid #e7eeea;
+}
+.price span{
+    font-weight: bold;
+    padding:22px 0px 22px 15px;
+    color:#37523d;
 }
 .add_car a{
     display: block;

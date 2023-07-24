@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
 .container{
     width: 1165px;
     margin: 0px auto;
@@ -27,11 +30,12 @@ h3{
     font-size: 26px;
     font-weight: bold;
     color: #37523d;
+    letter-spacing: 0.2em;
     padding-bottom: 35px;
 }
 p{
     font-size: 20px;
     line-height: 130%;
-    letter-spacing: 0.2em;;
+    letter-spacing: 0.2em;
     color:#000;
 }

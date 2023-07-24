@@ -31,6 +31,10 @@
     font-size: 20px;
     letter-spacing: 0.05em;
 }
+.list li a:hover{
+    color:#050bc0;
+    background: #bbf7d5;
+}
 
 .content{
     margin: 0px auto;

@@ -1,0 +1,138 @@
+.wrap{
+    width: 940px;
+    margin: 0px auto;
+}
+img{
+    vertical-align: top;
+}
+.flex{
+    display: flex;
+}
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding-top:40px;
+}
+h1 {
+    width: 219.5px;
+}
+.nav-list{
+    color:#3F5D45;
+}
+.nav-list li a{
+    display: block;
+    font-family: PingFang TC;
+    font-size: 16px;
+    color:#3F5D45;
+    letter-spacing: 0px;
+    opacity: 1;
+}
+.nav-list li:not(:last-child){
+    padding-right:60px;
+}
+.nav-list li a:hover{
+    color: #e7eeea;
+}
+
+/*banner*/
+.banner{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.banner img{
+    width: 940px;
+    margin:0px auto;
+}
+.menu{
+    width: 297px;
+    margin-right: 20px;
+   /* border:3px solid white;*/
+}
+.title{
+    font-size: 22px;
+    background: #3F5D45 ;
+    color:#fff;
+    padding:22px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.list li a{
+    font-size: 22px;
+    display: block;
+    padding:22px 0px;
+    color:#3F5D45;
+    border: 1px solid #EAF0ED;
+    text-align: center;
+    font-weight: bold;
+}
+.list li a:hover{
+    background: #EAF0ED;
+}
+
+.card-box{
+    width: 620px;
+}
+.card-infor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+.card{
+    width: 300px;
+}
+.price{
+    justify-content: space-around;
+    border: 1px solid #e7eeea;
+}
+h3{
+    width: 183px;
+    display: block;
+    color:#37523d;
+    padding:20px 0px;
+    text-align: center;
+}
+.border-left{
+    border-left: 1px solid #e7eeea;
+}
+.price span{
+    font-size: 20px;
+    font-weight: bold;
+    padding:22px 0px 22px 15px;
+    color:#37523d;
+}
+.add_car a{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding:30px 0px;
+    color:#37523d;
+    text-align: center;
+    background: #e7eeea;
+}
+
+.add_car a:hover{
+    background: #37523d;
+    color:#fff;
+}
+.pages{
+    justify-content: end;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.page-btn{
+    padding: 22px 28px;
+    border: 1px solid #EAF0ED;
+}
+.arrow{
+    padding: 18px;
+    border: 1px solid #EAF0ED;
+}
+.page-btn:hover{
+    background: #3F5D45;
+    color:  #EAF0ED;
+}
+.arrow:hover{
+    background: #3F5D45;
+    color:  #EAF0ED;
+}
